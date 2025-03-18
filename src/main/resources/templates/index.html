@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../static/style.css" th:href="@{style.css}">
 </head>
 <body>
+<div class="SiteHeader">
+    <h1>Jannicks Jumbo Biler</h1>
+</div>
 <div class="container">
     <div class="square" th:each="car : ${carList}">
         <img th:src="@{'/img/' + ${car.image}}" alt="Car Image" />

@@ -121,3 +121,9 @@ body {
 .form-container button:hover {
     background-color: #45a049;
 }
+
+.SiteHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
